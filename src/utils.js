@@ -1,0 +1,1 @@
+export const getTotalPrice = (arr) => arr.reduce((sum, obj) => obj.price + sum, 0)
